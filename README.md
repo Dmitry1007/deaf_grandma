@@ -8,16 +8,16 @@ The second time you say GOODBYE! she says LATER, SKATER! and the program exits.
 Example
 
 HEY KID!
-> hi, grandma
+=> hi, grandma
 SPEAK UP, KID!
-> I SAID HI, GRANDMA
+=> I SAID HI, GRANDMA
 NO, NOT SINCE 1946!
->
+=>
 WHAT?!
-> Goodbye!
+=> Goodbye!
 SPEAK UP, KID!
-> GOODBYE!
+=> GOODBYE!
 LEAVING SO SOON?
-> GOODBYE!
+=> GOODBYE!
 LATER, SKATER!
 
