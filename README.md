@@ -9,15 +9,21 @@ Example
 
 HEY KID!
 => hi, grandma
+
 SPEAK UP, KID!
 => I SAID HI, GRANDMA
+
 NO, NOT SINCE 1946!
 =>
+
 WHAT?!
 => Goodbye!
+
 SPEAK UP, KID!
 => GOODBYE!
+
 LEAVING SO SOON?
 => GOODBYE!
+
 LATER, SKATER!
 
