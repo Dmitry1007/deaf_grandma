@@ -1,54 +1,52 @@
 class Grandma
   def initialize
-    @goodbye = 0
+    @goodbyes = 0
   end
   
-  def input_parser(input)
-    if input == "GOODBYE!"
-      goodbyez
-    elsif input == ""
-      puts nothing_said
-    elsif input == input.upcase
-      puts whispered
+  def comment_parser(comment)
+    if comment == "GOODBYE!"
+      response_to_goodbye
+    elsif comment == ""
+      puts response_to_empty
+    elsif comment == comment.upcase
+      puts response_to_downcase
     else 
-      puts shouting
+      puts response_to_upcase
     end
   end
 
-  def goodbyez
-    @goodbye += 1
+  def response_to_goodbye
+    @goodbyes += 1
     
-    if @goodbye == 1
+    if @goodbyes == 1
       puts "LEAVING SO SOON?"
     else
-      puts leaving
+      puts response_to_second_goodbye
     end
   end
   
-  def shouting
+  def response_to_upcase
     "NO, NOT SINCE 1946!"
   end
 
-  def nothing_said
+  def response_to_empty
     "WHAT?!"
   end
 
-  def whispered
+  def response_to_downcase
     "SPEAK UP, KID!"
   end
 
-
-  def leaving
+  def response_to_second_goodbye
     "Later, Skater!"
   end
-
 end
 
 grandma = Grandma.new
 
-grandma.input_parser("HEY")
-grandma.input_parser("hey")
-grandma.input_parser("")
-grandma.input_parser("GOODBYE!")
-grandma.input_parser("GOODBYE!")
+grandma.comment_parser("HEY")
+grandma.comment_parser("hey")
+grandma.comment_parser("")
+grandma.comment_parser("GOODBYE!")
+grandma.comment_parser("GOODBYE!")
 
